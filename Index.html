@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Birthday Coupon</title>
+
+<style>
+  body {
+      font-family: 'Poppins', sans-serif;
+          background: linear-gradient(135deg, #fde2ff, #e3f0ff);
+              margin: 0;
+                  padding: 0;
+                      display: flex;
+                          justify-content: center;
+                              align-items: center;
+                                  height: 100vh;
+                                    }
+
+                                      .coupon {
+                                          width: 400px;
+                                              background: #ffffffee;
+                                                  backdrop-filter: blur(8px);
+                                                      padding: 32px;
+                                                          border-radius: 30px;
+                                                              box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+                                                                  border: 2px solid #e5c7ff;
+                                                                      text-align: center;
+                                                                          position: relative;
+                                                                              overflow: hidden;
+                                                                                }
+
+                                                                                  .sparkle { position: absolute; font-size: 20px; opacity: .7; }
+                                                                                    .s1 { top: 10px; left: 20px; }
+                                                                                      .s2 { bottom: 20px; right: 30px; }
+                                                                                        .s3 { top: 50%; left: -5px; }
+
+                                                                                          .flower {
+                                                                                              position: absolute;
+                                                                                                  width: 70px;
+                                                                                                      opacity: 0.35;
+                                                                                                        }
+                                                                                                          .f1 { top: -10px; right: -10px; }
+                                                                                                            .f2 { bottom: -10px; left: -10px; }
+
+                                                                                                              .title {
+                                                                                                                  font-size: 30px;
+                                                                                                                      font-weight: 600;
+                                                                                                                          color: #7a34d6;
+                                                                                                                              margin-bottom: 16px;
+                                                                                                                                  letter-spacing: 0.6px;
+                                                                                                                                    }
+
+                                                                                                                                      .message {
+                                                                                                                                          font-size: 16px;
+                                                                                                                                              color: #555;
+                                                                                                                                                  margin-bottom: 26px;
+                                                                                                                                                      line-height: 1.6;
+                                                                                                                                                        }
+
+                                                                                                                                                          .claim {
+                                                                                                                                                              background: #7a34d6;
+                                                                                                                                                                  color: #fff;
+                                                                                                                                                                      padding: 14px 22px;
+                                                                                                                                                                          border-radius: 16px;
+                                                                                                                                                                              display: inline-block;
+                                                                                                                                                                                  font-size: 15px;
+                                                                                                                                                                                      font-weight: 600;
+                                                                                                                                                                                          letter-spacing: 0.4px;
+                                                                                                                                                                                              box-shadow: 0 5px 14px rgba(122,52,214,0.3);
+                                                                                                                                                                                                  cursor: pointer;
+                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                      .claimed {
+                                                                                                                                                                                                          display: none;
+                                                                                                                                                                                                              font-size: 18px;
+                                                                                                                                                                                                                  color: #7a34d6;
+                                                                                                                                                                                                                      font-weight: 600;
+                                                                                                                                                                                                                          margin-top: 24px;
+                                                                                                                                                                                                                            }
+
+                                                                                                                                                                                                                              .photo-frame {
+                                                                                                                                                                                                                                  width: 100%;
+                                                                                                                                                                                                                                      height: 170px;
+                                                                                                                                                                                                                                          border: 2px dashed #d7baff;
+                                                                                                                                                                                                                                              border-radius: 18px;
+                                                                                                                                                                                                                                                  margin-bottom: 20px;
+                                                                                                                                                                                                                                                      background-size: cover;
+                                                                                                                                                                                                                                                          background-position: center;
+                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                            </style>
+                                                                                                                                                                                                                                                            </head>
+
+                                                                                                                                                                                                                                                            <body>
+                                                                                                                                                                                                                                                              <div class="coupon">
+                                                                                                                                                                                                                                                                  <div class="sparkle s1">✨</div>
+                                                                                                                                                                                                                                                                      <div class="sparkle s2">✨</div>
+                                                                                                                                                                                                                                                                          <div class="sparkle s3">✨</div>
+
+                                                                                                                                                                                                                                                                              <img class="flower f1" src="https://pngimg.com/uploads/flowers/flowers_PNG5486.png">
+                                                                                                                                                                                                                                                                                  <img class="flower f2" src="https://pngimg.com/uploads/flowers/flowers_PNG5486.png">
+
+                                                                                                                                                                                                                                                                                      <div class="title">Birthday Coupon 🎀</div>
+
+                                                                                                                                                                                                                                                                                          <div class="photo-frame" style="
+                                                                                                                                                                                                                                                                                                background-image:url('https://i.ibb.co/DDJmG7xL/image0.png');
+                                                                                                                                                                                                                                                                                                    "></div>
+
+                                                                                                                                                                                                                                                                                                        <div class="message">
+                                                                                                                                                                                                                                                                                                              Redeemable for <b>one special favor</b> of your choice — made for you since I couldn't think of a real gift but still wanted you to have something sweet. 💗
+                                                                                                                                                                                                                                                                                                                  </div>
+
+                                                                                                                                                                                                                                                                                                                      <div class="claim">Tap to Claim</div>
+
+                                                                                                                                                                                                                                                                                                                          <div class="claimed">
+                                                                                                                                                                                                                                                                                                                                🎉 Coupon claimed! You're amazing, thank you for being you. 💕
+                                                                                                                                                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                                                                                                                                                      </div>
+
+                                                                                                                                                                                                                                                                                                                                      <script>
+                                                                                                                                                                                                                                                                                                                                        const button = document.querySelector('.claim');
+                                                                                                                                                                                                                                                                                                                                          const claimed = document.querySelector('.claimed');
+
+                                                                                                                                                                                                                                                                                                                                            button.addEventListener('click', function() {
+                                                                                                                                                                                                                                                                                                                                                button.style.display = 'none';
+                                                                                                                                                                                                                                                                                                                                                    claimed.style.display = 'block';
+                                                                                                                                                                                                                                                                                                                                                      });
+                                                                                                                                                                                                                                                                                                                                                      </script>
+
+                                                                                                                                                                                                                                                                                                                                                      </body>
+                                                                                                                                                                                                                                                                                                                                                      </html>
+                                                                                                                                                                                                                                                                                                                                                      
